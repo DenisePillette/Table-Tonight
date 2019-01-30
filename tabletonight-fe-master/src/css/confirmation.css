@@ -1,0 +1,31 @@
+.card{
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0.8rem;
+}
+
+.card form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.confirm {
+  text-align: center;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.container-confirm {
+  height: 700px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background-image: url("/assets/images/reserved.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.box-confirm {
+    max-width: 100%;
+}

@@ -1,0 +1,54 @@
+.container-1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.container-2 {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box-0 {
+  min-height: 100px;
+  width: 70%;
+}
+
+/* Styling for all boxes .box-1, .box-2, .box-3, .box-4, .box-5, .box-6  */
+article {
+  height: 490px;
+  width: 402px;
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+article p {
+    flex: 2;
+}
+
+article button {
+    background-color: #990000;
+    color: white;
+}
+
+.card-image img {
+  width: 380px;
+  height: 250px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+.description {
+
+}
